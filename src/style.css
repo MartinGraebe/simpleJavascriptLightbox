@@ -1,0 +1,57 @@
+/* lighbox */
+#sno_lightbox {
+    position: fixed;
+    width: 100%;
+    height: 100%;
+    top: 0px;
+   
+    background: rgba(0, 0, 0, 0.3);
+    
+    visibility: hidden;
+    display: flex;
+    align-items: center !important;
+    justify-content: center !important;
+  }
+  
+  #sno_lightbox.sno_open {
+  
+    visibility: visible;
+  }
+  
+  #sno_lightbox_content {
+    position: absolute;
+    pointer-events:none;
+    margin: 0 auto;
+    border-radius: 3px;
+    
+    
+    text-align: center;
+  }
+  #sno_lightbox_content img {
+    max-width: 80vw !important;
+    height:auto;
+    max-height: 80vh !important;
+    pointer-events:none;
+    -khtml-user-select: none;
+    -o-user-select: none;
+    -moz-user-select: none;
+    -webkit-user-select: none;
+    user-select: none;
+  }
+  #sno_close {
+    position: absolute;
+    right: 20px;
+    top: 20px;
+    background: rgba(0, 0, 0, 0.2);
+    height: 20px;
+    width: 20px;
+    border-radius: 15px;
+    text-align: center;
+    color: #ffffff;
+    cursor: pointer;
+    -khtml-user-select: none;
+    -o-user-select: none;
+    -moz-user-select: none;
+    -webkit-user-select: none;
+    user-select: none;
+  } 
