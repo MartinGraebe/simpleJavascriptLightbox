@@ -47,8 +47,10 @@
     width: 20px;
     border-radius: 15px;
     text-align: center;
+    z-index: 3000;
     color: #ffffff;
-    cursor: pointer;
+    cursor: pointer ;
+    pointer-events: visible !important;
     -khtml-user-select: none;
     -o-user-select: none;
     -moz-user-select: none;
