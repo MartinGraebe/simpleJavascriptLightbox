@@ -74,4 +74,4 @@ class snoLightbox {
 }
 const box = new snoLightbox('sno-lightbox')
 box.init()
-box.createLightbox()
+
